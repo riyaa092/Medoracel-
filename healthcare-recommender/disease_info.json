@@ -1,0 +1,166 @@
+{
+  "Fungal infection": {
+    "description": "A common skin condition caused by fungi, often resulting in redness and itching.",
+    "advice": "Keep the area dry and clean. Use antifungal cream. Consult a dermatologist if needed."
+  },
+  "Allergy": {
+    "description": "A hypersensitive immune response to allergens such as pollen, dust, or food.",
+    "advice": "Avoid known allergens. Use antihistamines. Seek medical help for severe reactions."
+  },
+  "GERD": {
+    "description": "A chronic digestive disorder where stomach acid irritates the food pipe lining.",
+    "advice": "Avoid spicy foods, don’t lie down after meals. Use antacids. Consult a gastroenterologist."
+  },
+  "Chronic cholestasis": {
+    "description": "A liver condition where bile cannot flow from the liver to the duodenum.",
+    "advice": "Maintain a healthy liver diet. Avoid alcohol. Consult a hepatologist."
+  },
+  "Drug Reaction": {
+    "description": "Adverse reaction to a medication.",
+    "advice": "Stop the suspected drug immediately. Consult a doctor urgently."
+  },
+  "Peptic ulcer disease": {
+    "description": "Open sores on the inner lining of the stomach or small intestine.",
+    "advice": "Avoid NSAIDs and spicy foods. Use antacids. Visit a gastroenterologist."
+  },
+  "AIDS": {
+    "description": "Acquired Immunodeficiency Syndrome caused by HIV.",
+    "advice": "Follow antiretroviral therapy (ART) strictly. Maintain hygiene and regular health checks."
+  },
+  "Diabetes": {
+    "description": "A metabolic disorder causing high blood sugar levels.",
+    "advice": "Monitor blood glucose. Follow a diabetic diet. Exercise and take medications as prescribed."
+  },
+  "Gastroenteritis": {
+    "description": "Inflammation of the stomach and intestines caused by infection.",
+    "advice": "Stay hydrated. Take ORS. Consult a doctor if symptoms persist."
+  },
+  "Bronchial Asthma": {
+    "description": "A respiratory condition marked by spasms in the bronchi.",
+    "advice": "Avoid allergens. Use prescribed inhalers. Monitor breathing regularly."
+  },
+  "Hypertension": {
+    "description": "High blood pressure often without symptoms.",
+    "advice": "Reduce salt, exercise regularly, and take medication if prescribed."
+  },
+  "Migraine": {
+    "description": "Recurring headaches with nausea and sensitivity to light or sound.",
+    "advice": "Avoid triggers. Use pain relievers and migraine-specific medications."
+  },
+  "Cervical spondylosis": {
+    "description": "Age-related wear and tear affecting spinal disks in the neck.",
+    "advice": "Do neck exercises. Maintain good posture. Use neck collars if advised."
+  },
+  "Paralysis (brain hemorrhage)": {
+    "description": "Loss of muscle function due to bleeding in the brain.",
+    "advice": "Seek immediate medical attention. Long-term physiotherapy is essential."
+  },
+  "Jaundice": {
+    "description": "Yellowing of the skin due to high bilirubin levels.",
+    "advice": "Avoid alcohol. Eat a liver-friendly diet. Consult a doctor for liver function tests."
+  },
+  "Malaria": {
+    "description": "A mosquito-borne infectious disease causing fever and chills.",
+    "advice": "Use mosquito nets. Take antimalarial drugs. Get a blood test for confirmation."
+  },
+  "Chickenpox": {
+    "description": "A viral infection causing itchy blisters all over the body.",
+    "advice": "Isolate the patient. Use calamine lotion. Avoid scratching."
+  },
+  "Dengue": {
+    "description": "A mosquito-borne viral infection with high fever and bleeding tendencies.",
+    "advice": "Stay hydrated. Monitor platelets. Hospitalize if needed."
+  },
+  "Typhoid": {
+    "description": "A bacterial infection due to Salmonella typhi causing prolonged fever.",
+    "advice": "Take antibiotics. Eat a soft diet. Avoid street food."
+  },
+  "Hepatitis A": {
+    "description": "Liver infection caused by Hepatitis A virus, often through contaminated food or water.",
+    "advice": "Rest, hydrate well, and maintain good hygiene."
+  },
+  "Hepatitis B": {
+    "description": "Serious liver infection caused by Hepatitis B virus.",
+    "advice": "Antiviral medications and regular liver monitoring. Avoid alcohol."
+  },
+  "Hepatitis C": {
+    "description": "Liver disease caused by the Hepatitis C virus.",
+    "advice": "Seek antiviral treatment. Avoid sharing personal hygiene tools."
+  },
+  "Hepatitis D": {
+    "description": "A liver infection that occurs only in people infected with Hepatitis B.",
+    "advice": "Get Hepatitis B vaccinated. Consult a hepatologist."
+  },
+  "Hepatitis E": {
+    "description": "Waterborne liver infection due to contaminated water.",
+    "advice": "Drink clean water. Rest. Consult a physician."
+  },
+  "Alcoholic hepatitis": {
+    "description": "Liver inflammation due to excessive alcohol intake.",
+    "advice": "Stop drinking. Follow liver-friendly diet. Medical treatment required."
+  },
+  "Tuberculosis": {
+    "description": "Bacterial infection that primarily affects the lungs.",
+    "advice": "Take full course of antibiotics. Isolate if active TB is diagnosed."
+  },
+  "Common Cold": {
+    "description": "Viral infection causing runny nose, cough, and sore throat.",
+    "advice": "Rest, stay hydrated, and take over-the-counter medication."
+  },
+  "Pneumonia": {
+    "description": "Infection that inflames air sacs in the lungs.",
+    "advice": "Take antibiotics or antivirals as prescribed. Rest well."
+  },
+  "Dimorphic hemorrhoids": {
+    "description": "Swollen veins in the lower rectum causing pain and bleeding.",
+    "advice": "Eat high-fiber foods. Use topical creams. Seek surgical options if severe."
+  },
+  "Heart attack": {
+    "description": "Blockage of blood flow to the heart muscle.",
+    "advice": "Seek emergency medical help. Take aspirin if advised."
+  },
+  "Varicose veins": {
+    "description": "Enlarged, swollen veins often in the legs.",
+    "advice": "Wear compression stockings. Avoid long standing. Seek surgical options if required."
+  },
+  "Hypothyroidism": {
+    "description": "Low production of thyroid hormones.",
+    "advice": "Take prescribed thyroid hormones. Monitor thyroid levels regularly."
+  },
+  "Hyperthyroidism": {
+    "description": "Excess production of thyroid hormones.",
+    "advice": "Antithyroid medications. Consider radioactive iodine or surgery."
+  },
+  "Hypoglycemia": {
+    "description": "Low blood sugar levels.",
+    "advice": "Eat glucose tablets or sugary food immediately. Monitor glucose levels regularly."
+  },
+  "Osteoarthristis": {
+    "description": "Joint inflammation causing pain and stiffness.",
+    "advice": "Maintain weight. Do physiotherapy. Use pain relievers."
+  },
+  "Arthritis": {
+    "description": "Inflammation of joints causing pain and limited movement.",
+    "advice": "Use anti-inflammatory medications. Do regular exercise."
+  },
+  "Vertigo": {
+    "description": "A sensation of spinning or losing balance.",
+    "advice": "Avoid sudden head movements. Take prescribed vertigo medications."
+  },
+  "Acne": {
+    "description": "Skin condition with pimples, blackheads, and inflammation.",
+    "advice": "Clean skin gently. Avoid oily products. Consult a dermatologist if severe."
+  },
+  "Urinary tract infection": {
+    "description": "Infection in urinary system causing painful urination.",
+    "advice": "Drink plenty of fluids. Take antibiotics after doctor consultation."
+  },
+  "Psoriasis": {
+    "description": "Autoimmune skin disease causing red, scaly patches.",
+    "advice": "Moisturize regularly. Use medicated creams. Avoid triggers."
+  },
+  "Impetigo": {
+    "description": "Contagious skin infection with red sores and blisters.",
+    "advice": "Maintain hygiene. Use prescribed antibiotics or creams."
+  }
+}

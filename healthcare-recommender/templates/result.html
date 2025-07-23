@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block title %}Diagnosis Result{% endblock %}
+{% block content %}
+<style>
+    .brand-title {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #4B4BE6;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px #d0d0ff;
+    }
+
+    .highlighted-disease {
+        background: linear-gradient(to right, #8A2BE2, #4B0082);
+        color: #fff;
+        padding: 14px 28px;
+        font-size: 1.7rem;
+        font-weight: 700;
+        border-radius: 12px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        transition: transform 0.2s ease-in-out;
+        margin-bottom: 1.5rem;
+    }
+
+    .highlighted-disease:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<div class="flex items-center justify-center min-h-screen px-4">
+    <div class="result-card w-full max-w-2xl text-center">
+        <h2 class="text-3xl font-bold text-indigo-700 mb-4">Predicted Disease</h2>
+        <p class="text-xl text-gray-700 mb-6">Based on the symptoms you've entered, the most likely condition is:</p>
+        <div class="highlighted-disease">{{ prediction }}</div>
+
+        {% if symptom_details %}
+        <div class="mt-10">
+            <h3 class="text-2xl font-semibold text-indigo-600 mb-4">Symptom Breakdown</h3>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                    <thead class="bg-indigo-100">
+                        <tr>
+                            <th class="py-2 px-4 border-b">Symptom</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for detail in symptom_details %}
+                        <tr class="hover:bg-gray-50">
+                            <td class="py-2 px-4 border-b font-medium">
+                                {{ detail.symptom.replace("_", " ") | capitalize }}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+
+        <a href="/" class="inline-block mt-6 bg-indigo-600 text-white px-6 py-2 rounded-md text-lg hover:bg-indigo-700 transition">
+            Go Back
+        </a>
+    </div>
+</div>
+{% endblock %}

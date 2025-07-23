@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - MedOracle</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .brand-title {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #4B4BE6;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px #d0d0ff;
+        }
+    </style>
+</head>
+<body class="auth-body">
+    <div class="auth-container">
+        <div class="brand-title">MedOracle</div>
+        <h2>Login</h2>
+        <!-- Updated form action to match Flask function name -->
+        <form method="POST" action="{{ url_for('login_form') }}">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <!-- Updated signup link to match Flask function name -->
+        <p>New user? <a href="{{ url_for('signup_form') }}">Create account</a></p>
+    </div>
+</body>
+</html>
